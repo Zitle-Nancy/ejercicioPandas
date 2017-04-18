@@ -4,10 +4,10 @@ body{
 	background-color:#cecec6;
 }
 /*inicio de los estilos del navbar*/
-span{
+#logo{
 	font-size: 30px;
 }
-span:hover{
+#logo:hover{
 	font-weight: bold;
 	font-variant: small-caps;
 	background: #ccc; color: black; box-shadow: 10px 10px 10px rgba(0, 0, 250, 0.4);
@@ -39,19 +39,45 @@ a:hover{
 
 /*fin de los estilos de navbar*/
 /*estilos de las imagenes*/
-#imagenes{
-	display: block;
-	/*background-color:#cf71f7;*/
 
-}
 .imagenesPandas{
-	display: inline;
-	margin-left: 50px;
+	display:inline-block;
+	margin-left:60px;
 }
 img{
-	margin: 10px 25px 10px 25px;
-	width: 200px;
+	padding: 5px;
+	margin: 5px;
+	width: 220px;
 	height: 200px;
-	border:15px solid #7c1910;
+	border-radius: 65%;
+	border:10px solid #7c1910;
 }
 /*fin estilos de las imagenes*/
+/*estilos barras */
+.barras{
+	text-align: center;
+	display: inline-block;
+	padding-left:15px;
+	margin-top: 20px;
+	margin-left:100px;
+	background-color:#ff7afc;
+	width: 300px;
+	border-radius: 30px;
+}
+.barras:hover{
+	font-size:20px;
+}
+/*fin estilos barras*/
+
+/*estilos textos*/
+.textos{
+	display: inline-block;
+	width: 500px;
+	height: 100px;
+	padding: 10px;
+	margin-top: 50px;
+	margin-left:100px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+/*fin estilos*/
