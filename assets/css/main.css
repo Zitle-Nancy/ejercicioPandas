@@ -3,6 +3,7 @@ body{
 	padding: 0px;
 	background-color:#cecec6;
 }
+/*inicio de los estilos del navbar*/
 span{
 	font-size: 30px;
 }
@@ -35,3 +36,22 @@ a:hover{
 	color:black;
 	font-weight: bolder;
 }
+
+/*fin de los estilos de navbar*/
+/*estilos de las imagenes*/
+#imagenes{
+	display: block;
+	/*background-color:#cf71f7;*/
+
+}
+.imagenesPandas{
+	display: inline;
+	margin-left: 50px;
+}
+img{
+	margin: 10px 25px 10px 25px;
+	width: 200px;
+	height: 200px;
+	border:15px solid #7c1910;
+}
+/*fin estilos de las imagenes*/
