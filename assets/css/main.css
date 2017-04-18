@@ -82,3 +82,15 @@ img{
 	text-align: justify;
 }
 /*fin estilos*/
+/*taches*/
+.cerrar{
+	display: inline-block;
+	width: 270px;
+	text-align: right;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.cerrar:hover{
+	background-color:red;
+}
+/*fin taches*/
