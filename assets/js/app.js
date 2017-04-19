@@ -10,9 +10,6 @@ origen.addEventListener('click',origenEvento);
 
 var texto1 = document.getElementById('texto1');
 var txt2 = document.getElementById('txt2');
-
-var contador = 0;
-var contador1 = 0;
 var longitudImagenes = imagenesPandas.length;
 var longitud = cerrar.length;
 
@@ -33,21 +30,16 @@ function mostrar(){
 }
 // para eliminar el texto
 function borrarExtincion(){
-	contador++;
-	console.log(contador);
-	if(contador == 1){
-		texto1.style.display = "none";
+	if(txt2.style.visibility == "hidden"){
+		txt2.style.visibility = "visible";
 	}else{
-		texto1.style.display = "inline-block";
+		txt2.style.visibility = "hidden";
 	}	
 }
 function origenEvento(){
-	contador1++;
-	console.log(contador1);	 //porque toma el valor del contador? no se supone que saliendo de una funcion ya vielve a cero
-	if(contador1 == 1){
-		txt2.style.display = "none";
+	if(texto1.style.visibility == "hidden"){
+		texto1.style.visibility = "visible";
 	}else{
-		txt2.style.display = "inline-block";
+		texto1.style.visibility = "hidden";
 	}
-	
 }
